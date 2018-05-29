@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">carbontracker</string>
+    <string name="carbon_tracker">Carbon Tracker</string>
+    <string name="add_journey">Add Journey</string>
+    <string name="view_carbon_footprint">View Carbon FootPrint</string>
+    <string name="please_select_or_add_a_transporation_mode">Please select or add a transportation mode :</string>
+    <string name="add_car">Add Car</string>
+    <string name="select_make">Select Make :</string>
+    <string name="select_model">Select Model :</string>
+    <string name="please_enter_the_distance_travelled_in_the_city">Please enter the distance travelled in the city :</string>
+    <string name="please_enter_the_distance_travelled_on_the_highway">Please enter the distance travelled on the highway :</string>
+    <string name="please_select_or_add_a_route_to_proceed">Please select or add a route to proceed :</string>
+    <string name="add_route">Add Route</string>
+    <string name="nickname">Nickname</string>
+    <string name="please_enter_a_nickname">Please enter a nickname</string>
+    <string name="please_enter_the_name_of_your_route">Please enter the name of your route</string>
+    <string name="route_name">Route Name</string>
+    <string name="select_year">Select Year</string>
+    <string name="highway_distance">Highway Distance (Km) </string>
+    <string name="city_distance">City Distance (Km) </string>
+    <string name="long_press_to_edit_or_delete_route">Long press to edit or delete route</string>
+    <string name="title_activity_foot_print">FootPrint</string>
+    <string name="please_choose_car_that_you_want">Please choose car that you want</string>
+    <string name="title_activity_graph_trip">GraphTrip</string>
+    <string name="long_press_to_edit_or_delete">Long press to edit or delete</string>
+    <string name="go_to_chart">Go to Chart</string>
+    <string name="welcome_to_the_carbon_tracking_app">Welcome to the Carbon Tracking App</string>
+    <string name="go_to_footprint_graph">go to footPrint Graph</string>
+    <string name="routeDistance">route distance</string>
+    <string name="today">today</string>
+    <string name="dateText">date</string>
+    <string name="vehicleName">vehicleName</string>
+    <string name="distanceText">distance</string>
+    <string name="routeNameText">routeName</string>
+    <string name="carbonText">carbon</string>
+    <string name="addRoute">Add Route</string>
+    <string name="editRoute">Edit/Delete Route</string>
+    <string name="zeroError">Distances must be greater than zero</string>
+    <string name="nullError">Please complete data arguments</string>
+    <string name="routeCarbonEmit">route carbon emit</string>
+    <string name="carList">Car List</string>
+    <string name="back">Back</string>
+    <string name="one_day_graph">one day graph</string>
+    <string name="four_week_graph">four week graph</string>
+    <string name="one_year_graph">one year graph</string>
+    <string name="select_day">Click here to select day</string>
+    <string name="this_day_carbon_consume">this day\'s carbon consume</string>
+    <string name="carbon_consume_bill">Carbon consume monthly bill</string>
+    <string name="carbon_consume_yearly_bill">Carbon consume yearly bill</string>
+    <string name="initialize_me">Initialize Me</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <array name="TIPS">
+        <item>When possible, walk or ride your bike in order to avoid carbon emissions completely.
+        </item>
+        <item>Try to avoid speeding and unnecessary acceleration as it may increase your mileage by
+            up to 33%. It also wastes gas and money.
+        </item>
+        <item>Inflating your tires regularly could help you improve your gas mileage by up to 3%.
+        </item>
+        <item>Being stuck in traffic wastes gas and unnecessarily creates CO2. Try using traffic
+            websites and apps and go a different way or wait.
+        </item>
+        <item>Try combining errands so that you have to make fewer trips.</item>
+        <item>Try removing excess weight from your car to help with fuel efficiency.</item>
+        <item>If you are planning on switching or buying a new car, consider one with a higher
+            mileage or an electric vehicle.
+        </item>
+        <item>Carpool when possible to further reduce your carbon footprint.</item>
+        <item>Consider using ePlusGreen’s PC energy-saving technology as the system monitor
+            minimizes computer and printer energy usage.
+        </item>
+        <item>Insulate and seal your home. Reduce drafts and air leaks with caulk, insulation, and
+            weather stripping.
+        </item>
+        <item>Make energy efficiency a primary consideration when choosing a new furnace, air
+            conditioning unit, dishwasher, or refrigerator. Products bearing the ENERGY STAR
+            label are recognized for having superior efficiency.
+        </item>
+        <item>Turn off lights you’re not using and when you leave the room. Replace incandescent
+            light bulbs with compact florescent or LED ones.
+        </item>
+        <item>Try to avoid setting your thermostat too high or low. Consider installing a
+            programmable model to turn off the heat/air conditioning when you’re not home.
+        </item>
+        <item>Consider adding solar panels to the roof of your home if you can afford the cost.
+        </item>
+        <item>Shorter showers might help cut down emissions from hot water heater.</item>
+    </array>
+    <string name="elec">Electricity</string>
+    <string name="gas">Gas</string>
+    <string name="bus">Bus</string>
+    <string name="pedestrian">Pedestrian</string>
+    <string name="skytrain">Skytrain</string>
+    <string name="car">Car</string>
+    <string name="promptJourneys1">You have </string>
+    <string name="promptJourneys2"> car trips generating </string>
+    <string name="promptJourneys3"> . </string>
+    <string name="utilitiesPrompt1">You have </string>
+    <string name="utilitiesPrompt2"> utility bills. </string>
+    <string name="utilitiesPrompt3"> was </string>
+    <string name="utilitiesPrompt4"> and </string>
+    <string name="utilitiesPrompt5"> generated per person daily from your electricity and gas usage. </string>
+    <string name="smallDistancePrompt"> Some of the trips you had were of small distances. </string>
+    <string name="longDistancePrompt"> Your journey seems to cover a large distance, please follow these tips to ensure minimum carbon emission. </string>
+    <string name="MPGlowPrompt"> Your car\'s fuel efficiency is lower than the average. </string>
+    <string name="sameRoutePrompt1"> Out of these </string>
+    <string name="sameRoutePrompt2"> trips, </string>
+    <string name="sameRoutePrompt3"> are the same. </string>
+    <string name="click_to_edit_long_click_to_delete_click_the_button_to_go_to_footprint_table">Click to edit, Long Click to delete. Click the button to go to Footprint Table</string>
+    <string name="are_you_sure_to_delete_this_journey">Are you sure to delete this journey?</string>
+    <string name="treeYearUnit">tree-years worth of CO2</string>
+    <string name="kgUnit">kilograms of CO2</string>
+    <string name="changeUnitsToast">Changing Units to</string>
+    <string name="change_units">Change Units</string>
+    <string name="mode">mode</string>
+    <string name="route">route</string>
+    <string name="stacked_bar">stacked bar</string>
+    <string name="fourWeekCarbonConsume">this four weeks carbon consume</string>
+    <string name="about_screen_text">Team QUARTZ.\n
+        This app is created in 2017 by Muhammad Ahad Chaudhry, Hansen
+            William, Nicholas Ip, and Shihang Yao.
+        \nTo see Computing Science Homepage click
+            <a href="http://www.cs.sfu.ca/CourseCentral/276/bfraser/index.html">CS Homepage</a>
+        \n\nLink for all the resource:
+        \nRed Car Icon : <a href="http://www.iconarchive.com/show/transport-icons-by-iconshow/Sportscar-car-icon.html">
+            http://www.iconarchive.com/show/transport-icons-by-iconshow/Sportscar-car-icon.html</a>
+        \nBlue Car Icon : <a href="http://www.iconarchive.com/show/car-icons-by-bevel-and-emboss/car-blue-icon.html">
+            http://www.iconarchive.com/show/car-icons-by-bevel-and-emboss/car-blue-icon.html</a>
+        \nOrange Car Icon : <a href="http://www.iconarchive.com/show/car-icons-by-bevel-and-emboss/car-orange-icon.html">
+            http://www.iconarchive.com/show/car-icons-by-bevel-and-emboss/car-orange-icon.html</a>
+        \nPurple Car Icon : <a href="http://www.iconarchive.com/show/car-icons-by-bevel-and-emboss/car-purple-icon.html">
+            http://www.iconarchive.com/show/car-icons-by-bevel-and-emboss/car-purple-icon.html</a>
+        \nSport Car Icon : <a href="http://www.iconarchive.com/show/car-icons-by-bevel-and-emboss/racing-car-icon.html">
+            http://www.iconarchive.com/show/car-icons-by-bevel-and-emboss/racing-car-icon.html</a>
+        \nBus Icon: http : <a href="http://www.iconarchive.com/show/car-icons-by-bevel-and-emboss/van-bus-icon.html">
+            http://www.iconarchive.com/show/car-icons-by-bevel-and-emboss/van-bus-icon.html</a>
+        \nPedestrian Icon : <a href="http://www.iconarchive.com/show/transport-icons-by-aha-soft/bike-icon.html">
+            http://www.iconarchive.com/show/transport-icons-by-aha-soft/bike-icon.html</a>
+        \nSkytrain Icon : <a href="http://www.iconarchive.com/show/vista-artistic-icons-by-awicons/1-Normal-Train-icon.html">
+            http://www.iconarchive.com/show/vista-artistic-icons-by-awicons/1-Normal-Train-icon.html</a>
+        \nCarbon : <a href="http://icon-icons.com/icon/carbon-copy-cloner/30254">
+            http://icon-icons.com/icon/carbon-copy-cloner/30254 </a>
+        \nBackground : <a href="https://cdn.pixabay.com/photo/2016/07/11/17/45/abstract-1510192_960_720.png">
+            https://cdn.pixabay.com/photo/2016/07/11/17/45/abstract-1510192_960_720.png </a>
+
+</string>
+    <string name="version">version</string>
+    <string name="noJourneyTodayPrompt">You have no journeys today would you like to enter one now?</string>
+    <string name="noBillPrompt">You have no bills in the last 1.5 months would you like to enter one now?</string>
+    <string name="defaultNotificationPrompt1">You have</string>
+    <string name="defaultNotificationPrompt2">journeys today would you like to enter another?</string>
+    <string name="notificationTitle">Your Daily Prompt</string>
+    <string name="title">About</string>
+    <string name="iconName">NickName</string>
+    <string name="select_starting_date">Select starting date:</string>
+    <string name="starting_date">Starting Date</string>
+    <string name="select_end_date">Select end date:</string>
+    <string name="end_date">End Date</string>
+    <string name="enter_gas_used_gj">Enter gas used (GJ):</string>
+    <string name="enter_electrcity_used_gwh">Enter electrcity used (GWh):</string>
+    <string name="number_of_users">Number of users:</string>
+    <string name="delete">Delete</string>
+    <string name="monthly_utilities">Monthly Utilities</string>
+    <string name="nickname_routename">NickName + RouteName</string>
+    <string name="select_icon">Select Icon</string>
+    <string name="target">target</string>
+    <string name="current">current</string>
+    <string name="dot">.</string>
+    <string name="empty" />
+    <string name="positive_prompt">Number must be positive!</string>
+    <string name="invalid_number">Invalid Number!</string>
+    <string name="at_least_1_character">Bill name must be at least 1 character long!</string>
+    <string name="please_enter_date">Please enter a date!</string>
+    <string name="start_date_before_end_date">Date must be before end date!</string>
+    <string name="error">Error</string>
+    <string name="default_model">Please Enter Make First!</string>
+    <string name="default_Year">Please Enter Model First!</string>
+    <string name="no_icon_selected">no icon selected</string>
+    <string name="please_enter">Please Enter NickName, Make, Model, and Year!</string>
+    <string name="car_not_available">Sorry the car is not available</string>
+    <string name="edit_delete_car">Edit/Delete Car</string>
+    <string name="added_route_with_name">Added Route with \nName :</string>
+    <string name="high_distance">"\nHighway Distance: "</string>
+    <string name="city_dist">"\nCity Distance : "</string>
+    <string name="you_clicked">"You clicked # "</string>
+    <string name="which_bill">" , which is bill: "</string>
+    <string name="which_route">" , which is Route: "</string>
+    <string name="tips_to_reduce">TIPS TO REDUCE CARBON FOOTPRINT</string>
+    <string name="close">Close</string>
+    <string name="you_had">"You had "</string>
+    <string name="car_trips_generating">" car trips today generating "</string>
+    <string name="which_car">" , which is Car: "</string>
+</resources>

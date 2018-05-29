@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nick.carbontracker">
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.TransportationModeActivity"
+            android:parentActivityName=".UI.MenuActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".UI.MenuActivity"/>
+        </activity>
+        <activity android:name=".UI.SelectRouteActivity" />
+        <activity
+            android:name=".UI.GraphTrip"
+            android:label="@string/title_activity_graph_trip"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UI.MonthlyUtilities"
+            android:parentActivityName=".UI.MenuActivity">
+            <intent-filter>
+                <action android:name="monthlyUtilitiesFilter" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.MenuActivity"/>
+        </activity>
+        <activity
+            android:name=".UI.AddBill"
+            android:parentActivityName=".UI.MonthlyUtilities">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".UI.MenuActivity"/>
+        </activity>
+        <activity android:name=".UI.oneDayGraph.OneDayGraph" />
+        <activity android:name=".UI.fourWeekGraph.FourWeeksGraph" />
+        <activity android:name=".UI.yearGraph.YearGraph" />
+        <activity android:name=".UI.GraphMap" />
+        <activity android:name=".UI.oneDayGraph.SelectDay" />
+        <activity android:name=".UI.fourWeekGraph.SelectDayForFourWeeks" />
+        <activity android:name=".UI.yearGraph.SelectDayForYear" />
+        <activity android:name=".UI.SelectDatesForJourney" />
+        <activity android:name=".UI.JourneyList" />
+        <activity android:name=".UI.fourWeekGraph.FourWeekRouteGraph" />
+        <activity android:name=".UI.fourWeekGraph.FourWeekModePieGraph" />
+        <activity android:name=".UI.fourWeekGraph.SelectGraphModeFourWeek" />
+        <activity android:name=".UI.oneDayGraph.OneDayRouteGraph" />
+        <activity android:name=".UI.oneDayGraph.SelectGraphModeOneDay" />
+        <activity android:name=".UI.yearGraph.YearRouteGraph" />
+        <activity android:name=".UI.yearGraph.YearModePieGraph" />
+        <activity android:name=".UI.yearGraph.SelectGraphModeYear"></activity>
+        <activity android:name=".UI.AboutActivity"></activity>
+        <receiver android:name=".UI.NotificationPublisher" />
+    </application>
+
+</manifest>
